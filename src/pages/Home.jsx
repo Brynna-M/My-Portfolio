@@ -1,4 +1,4 @@
-import Button from "../components/button.jsx";
+import Button from "../components/Button.jsx";
 
 const Home = ({ className, ...props }) => {
   return (

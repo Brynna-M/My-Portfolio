@@ -1,4 +1,4 @@
-import Button from './button';
+import Button from './Button';
 export default function Navbar() {
   return (
     <nav className="bg-bright-blue-jean border-8 border-dark-plum shadow-md shadow-dark-plum text-white p-6 flex items-center  justify-between">
