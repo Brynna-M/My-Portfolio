@@ -5,6 +5,7 @@ export default function Portfolio() {
   const projects = [
     { title: 'Do It Daily', 
       path: '/portfolio/do-it-daily', 
+      image: '/Do-It-Daily.png',
       features: [
         "React",
         "MongoDB",
@@ -18,6 +19,7 @@ export default function Portfolio() {
     },
     { title: 'Black Jack', 
       path: '/portfolio/black-jack', 
+      image: '/BlackJack/BlackJackPlay.png',
       features:[
               "React Game Logic",
               "API Integration",
@@ -30,6 +32,7 @@ export default function Portfolio() {
     },
     { title: 'Portfolio', 
       path: '/portfolio/portfolio', 
+      image: '/PortfolioHome.png',
       features:[
               "React",
               "Tailwind CSS",
@@ -43,6 +46,7 @@ export default function Portfolio() {
     },
     { title: 'The Buzz', 
       path: '/portfolio/buzz', 
+      image: '/TheBuzz/Web1.png',
       features:[
               "React",
               "PostgreSQL",
@@ -55,6 +59,7 @@ export default function Portfolio() {
     },
     { title: 'Cafe Justo', 
       path: '/portfolio/cafe', 
+      image: '/CafeJusto/Final Poster - Chainbytes.png',
       features:[
               "React",
               "ExpoGo",
@@ -69,6 +74,7 @@ export default function Portfolio() {
     },
     { title: 'Pantry Pair', 
       path: '/portfolio/pantry', 
+      image: '/PantryPair.png',
       features:[
               "React",
               "SQL",
@@ -92,6 +98,7 @@ export default function Portfolio() {
               key={project.title}
               title={project.title}
               path={project.path}
+              image={project.image}
               features={project.features}
               color={project.color}
             />

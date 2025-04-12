@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
 
 export default function ContactForm() {
+
+
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,7 +26,7 @@ export default function ContactForm() {
       'service_2keue5t',
       'template_gc273id',
       formData,
-      'PUBLIC_KEY'
+      EMAILJS_PUBLIC_KEY
     ).then(
       () => setStatus("Message sent! ✅"),
       () => setStatus("Something went wrong. ❌")

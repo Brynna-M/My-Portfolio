@@ -1,7 +1,22 @@
-import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
+import ImageCarousel from "../../components/ImageCarousel";
+
 
 export default function CafeJusto() {
+  const images = [
+    "/CafeJusto/CafeJustoWHS.png",
+    "/CafeJusto/CafeJustoWPH.png", 
+    "/CafeJusto/CafeJustoWSS.png",
+    "/CafeJusto/CafeJustoFoHS.png",
+    "/CafeJusto/CafeJustoFoPS.png",
+    "/CafeJusto/CafeJustoFoWC.png",
+    "/CafeJusto/CafeJustoFaHP.png",
+    "/CafeJusto/CafeJustoFaLiP.png",
+    "/CafeJusto/CafeJustoFaPE.png",
+    "/CafeJusto/CafeJustoERD.png",
+    "/CafeJusto/CafeJustoFSM.png",
+    "/CafeJusto/Final Poster - Chainbytes.png"
+  ];
   return (
     <>
       <Navbar />
@@ -34,8 +49,9 @@ export default function CafeJusto() {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/2 border-8 border-dark-plum rounded-md shadow-lg overflow-y-auto max-h-[800px] p-4 bg-white">
-          <p className="text-center font-bungee text-xl text-dark-plum">Image Carousel Coming Soon</p>
+        <div className="w-full lg:w-1/2 border-8 border-dark-plum rounded-md shadow-lg overflow-y-auto max-h-[800px] p-4 bg-[#FFF8F0]">
+        <p className="text-center font-bungee text-xl text-dark-plum">Images</p>
+            <ImageCarousel images={images}/>
         </div>
       </div>
     </>

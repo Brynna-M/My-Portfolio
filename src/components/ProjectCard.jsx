@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function ProjectCard({ title, path, features = [], color }) {
+export default function ProjectCard({ title, path, image, features = [], color }) {
   return (
     <Link
       to={path}
@@ -9,7 +9,11 @@ export default function ProjectCard({ title, path, features = [], color }) {
       <h2 className="text-2xl font-bungee text-center text-dark-plum">{title}</h2>
 
       <div className="flex flex-row items-start gap-2 flex-1">
-        <div className="w-[150px] h-[150px] bg-white border-4 border-dark-plum flex-shrink-0" />
+        <img
+              src={image}
+              alt="Project preview"
+              className="w-[150px] h-[150px] bg-white border-4 border-dark-plum flex-shrink-0"
+        />
 
         <div className="text-dark-plum flex flex-col justify-start">
           <h3 className="text-sm font-bungee mb-1">FEATURES:</h3>

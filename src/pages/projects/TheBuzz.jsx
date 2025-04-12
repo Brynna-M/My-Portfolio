@@ -1,8 +1,24 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
+import ImageCarousel from "../../components/ImageCarousel";
+
 
 export default function TheBuzz() {
+  const images = [
+    
+    "/TheBuzz/Mobile1.png",
+    "/TheBuzz/Mobile2.png",
+    "/TheBuzz/SQL1.png", 
+    "/TheBuzz/SQL2.png", 
+    "/TheBuzz/Web1.png", 
+    "/TheBuzz/Web2.png", 
+    "/TheBuzz/Web3.png", 
+    "/TheBuzz/Web4.png",
+    "/TheBuzz/RubberDucks_State_Machine_Diagram_Phase3.png",
+    "/TheBuzz/ERD.png"
+  ];
   return (
+
     <>
       <Navbar />
       <div className="flex flex-col lg:flex-row w-full p-6 gap-6">
@@ -45,9 +61,10 @@ export default function TheBuzz() {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/2 border-8 border-dark-plum rounded-md shadow-lg overflow-y-auto max-h-[800px] p-4 bg-white">
-          <p className="text-center font-bungee text-xl text-dark-plum">Image Carousel Coming Soon</p>
-        </div>
+        <div className="w-full lg:w-1/2 border-8 border-dark-plum rounded-md shadow-lg overflow-y-auto max-h-[800px] p-4 bg-[#FFF8F0]">
+                  <p className="text-center font-bungee text-xl text-dark-plum">Images</p>
+                  <ImageCarousel images={images}/>
+                </div>
       </div>
     </>
   );

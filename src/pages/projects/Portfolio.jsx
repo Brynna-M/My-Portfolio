@@ -4,13 +4,18 @@ export default function Portfolio() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col lg:flex-row w-full p-6 gap-6">
+      <div className="flex justify-center items-center min-h-screen p-6">
         <div className="w-full lg:w-1/2 bg-[#FFF8F0] border-8 border-dark-plum p-6 rounded-md shadow-lg">
-          <h2 className="text-3xl font-bungee text-dark-plum mb-4 text-center">My Portfolio Website</h2>
-
-          <h3 className="text-xl font-bungee text-dark-plum mb-2">GitHub</h3>
-          <p className="font-quicksand text-lg leading-relaxed text-dark-plum">Coming soon</p>
-
+        <h2 className="text-3xl font-bungee text-dark-plum text-center">Portfolio</h2>
+        <h4 className="text-sm font-quicksand text-dark-plum mb-4 text-center">(This Website)</h4>
+        <a
+            href="https://github.com/Brynna-M/My-Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl font-bungee text-dark-plum mb-2 underline hover:text-deep-rose"
+          >
+            GitHub
+          </a>
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Description</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
             This is a custom-built React portfolio website designed to showcase my projects, skills, and background. It includes individual pages for each project with detailed writeups and visual elements, an interactive contact form, and responsive design throughout. The site was developed with a strong emphasis on personal branding and accessibility.
@@ -30,10 +35,6 @@ export default function Portfolio() {
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
             This project sharpened my frontend skills in React, Tailwind CSS, and component-based design. I learned how to manage dynamic layouts, build reusable UI components, implement email sending with third-party services, and deploy a polished site.
           </p>
-        </div>
-
-        <div className="w-full lg:w-1/2 border-8 border-dark-plum rounded-md shadow-lg overflow-y-auto max-h-[800px] p-4 bg-white">
-          <p className="text-center font-bungee text-xl text-dark-plum">Image Carousel Coming Soon</p>
         </div>
       </div>
     </>
