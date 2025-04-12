@@ -16,17 +16,26 @@ export default function About() {
           Hi! I’m Brynna Morris, a dual-degree student at Lehigh University pursuing bachelor's degrees in Computer Science and Population Health. I'm graduating with a 3.92 GPA and a passion for integrating software development with data-driven insight to create meaningful, people-centered solutions. On campus, I'm known for my positivity, hard-working nature, and leadership roles.
           </p> 
         </section>
-        <DropdownSection title="Why Population Health and Computer Science?">
-          <p>
-          At first glance, Computer Science and Population Health might seem like an unusual pairing of disciplines—but they actually complement each other beautifully. Population Health is a solutions-oriented field focused on data analysis, interdisciplinary collaboration, and impactful results. It emphasizes keeping key stakeholders involved throughout every stage of a project, working with large datasets, and leveraging data visualization techniques to drive insights. The analytical and results-based tenets of Population Health extend far beyond healthcare and can be applied to virtually any business or enterprise. 
-          <br/>
-          <br/>
-          Through Population Health, I built a strong foundation in data science and developed a people-centered mindset, a quality my previous employers have valued. My studies focused specifically on Health Technology, which included studying accessible design, the development of tech for improved health outcomes, and the systems behind the health technologies we use today.          <br/>
-          <br/>
-          Meanwhile, my Computer Science degree has given me deep technical skills, with a focus on full-stack software development. Together, these two areas of study allow me to build meaningful, user-driven solutions grounded in both technology and human impact.
-          </p>
+        <DropdownSection title="Experience">
+          <ul className="text-xl list-disc list-inside space-y-6">
+            <li ><strong>COCC Software Engineering Intern:</strong>
+              <ul className="text-lg list-none list-inside space-y-2 pl-4">
+                  <li>◦ <span className="ml-4">Participated on a team of 8 developers in an Agile/Scrum environment</span></li>
+                  <li>◦ <span className="ml-4"> Facilitated and led meetings in an interdepartmental team to create promotional materials</span> </li>
+                  <li>◦ <span className="ml-4">Scraped 60,000+ points of data from the file system to create and then analyze an easily readable dashboard from the scraped data to facilitate company-wide package creation and modification</span></li>
+                  <li>◦ <span className="ml-4">Developed internal tools to automate a 100-hour process of scraping and creating the dashboard into a click</span></li>
+                  <li>◦ <span className="ml-4">Produced packages to help expedite the creation and updating of apps and clear storage from the cloud</span></li>
+              </ul>
+            </li>
+            <li><strong>Peer Tutor:</strong> 
+              <ul className="text-lg list-none list-inside space-y-2 pl-4">
+                <li>◦ <span className="ml-4">Tutors groups of peers in biostatistics, R, Java, computer science engineering, data structures and algorithms</span></li>
+                <li>◦ <span className="ml-4">Collaborates with professors to grade 100+ students/semester and ensure student success</span></li>
+              </ul>
+            </li>
+          </ul>
         </DropdownSection>
-        <DropdownSection title="Skills & Tech">
+        <DropdownSection title="Skills">
           <ul className="font-quicksand columns-2 gap-2 list-disc list-inside p-2">
             <li>Java</li>
             <li>Python</li>
@@ -53,40 +62,6 @@ export default function About() {
             <li>Bitbucket</li>
           </ul>
 
-        </DropdownSection>
-        <DropdownSection title="Relevant Coursework">
-          <ul className="list-disc list-inside space-y-2">
-            <li>Data Structures & Algorithms</li>
-            <li>Biostatistics & R Programming</li>
-            <li>Accessible Health Tech Design</li>
-          </ul>
-        </DropdownSection>
-        <DropdownSection title="Experience">
-          <ul className="text-xl list-disc list-inside space-y-6">
-            <li ><strong>COCC Software Engineering Intern:</strong>
-              <ul className="text-lg list-none list-inside space-y-2 pl-4">
-                  <li>◦ <span className="ml-4">Participated on a team of 8 developers in an Agile/Scrum environment</span></li>
-                  <li>◦ <span className="ml-4"> Facilitated and led meetings in an interdepartmental team to create promotional materials</span> </li>
-                  <li>◦ <span className="ml-4">Scraped 60,000+ points of data from the file system to create and then analyze an easily readable dashboard from the scraped data to facilitate company-wide package creation and modification</span></li>
-                  <li>◦ <span className="ml-4">Developed internal tools to automate a 100-hour process of scraping and creating the dashboard into a click</span></li>
-                  <li>◦ <span className="ml-4">Produced packages to help expedite the creation and updating of apps and clear storage from the cloud</span></li>
-              </ul>
-            </li>
-            <li><strong>Peer Tutor:</strong> 
-              <ul className="text-lg list-none list-inside space-y-2 pl-4">
-                <li>◦ <span className="ml-4">Tutors groups of peers in biostatistics, R, Java, computer science engineering, data structures and algorithms</span></li>
-                <li>◦ <span className="ml-4">Collaborates with professors to grade 100+ students/semester and ensure student success</span></li>
-              </ul>
-            </li>
-          </ul>
-        </DropdownSection>
-        <DropdownSection title="References">
-          <p>
-            Access to my references are available upon request in the {' '}
-              <Link to="/contact" className="text-blue-600 underline hover:text-blue-800">
-                Contact Page
-              </Link>.
-          </p>
         </DropdownSection>
         <DropdownSection title="Soft Skills">
           <ul className="list-disc list-inside space-y-2 text-lg">
@@ -119,6 +94,36 @@ export default function About() {
             </li>
           </ul>
         </DropdownSection>
+        
+       
+        <DropdownSection title="Relevant Coursework">
+          <ul className="list-disc list-inside space-y-2">
+            <li>Data Structures & Algorithms</li>
+            <li>Biostatistics & R Programming</li>
+            <li>Accessible Health Tech Design</li>
+          </ul>
+        </DropdownSection>
+
+        
+        <DropdownSection title="References">
+          <p>
+            Access to my references are available upon request in the {' '}
+              <Link to="/contact" className="text-blue-600 underline hover:text-blue-800">
+                Contact Page
+              </Link>.
+          </p>
+        </DropdownSection>
+        <DropdownSection title="Why Population Health and Computer Science?">
+          <p>
+          At first glance, Computer Science and Population Health might seem like an unusual pairing of disciplines—but they actually complement each other beautifully. Population Health is a solutions-oriented field focused on data analysis, interdisciplinary collaboration, and impactful results. It emphasizes keeping key stakeholders involved throughout every stage of a project, working with large datasets, and leveraging data visualization techniques to drive insights. The analytical and results-based tenets of Population Health extend far beyond healthcare and can be applied to virtually any business or enterprise. 
+          <br/>
+          <br/>
+          Through Population Health, I built a strong foundation in data science and developed a people-centered mindset, a quality my previous employers have valued. My studies focused specifically on Health Technology, which included studying accessible design, the development of tech for improved health outcomes, and the systems behind the health technologies we use today.          <br/>
+          <br/>
+          Meanwhile, my Computer Science degree has given me deep technical skills, with a focus on full-stack software development. Together, these two areas of study allow me to build meaningful, user-driven solutions grounded in both technology and human impact.
+          </p>
+        </DropdownSection>
+        
         <DropdownSection title="Campus Involvement">
           <ul className="list-disc list-inside space-y-2">
             <li>
