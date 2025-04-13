@@ -6,11 +6,11 @@ import ImageCarousel from "../../components/ImageCarousel";
 export default function TheBuzz() {
   const images = [
     
-    "/TheBuzz/Mobile1.png",
-    "/TheBuzz/Mobile2.png",
+    "/TheBuzz/Web1.png", 
     "/TheBuzz/SQL1.png", 
     "/TheBuzz/SQL2.png", 
-    "/TheBuzz/Web1.png", 
+    "/TheBuzz/Mobile1.png",
+    "/TheBuzz/Mobile2.png",
     "/TheBuzz/Web2.png", 
     "/TheBuzz/Web3.png", 
     "/TheBuzz/Web4.png",
@@ -50,7 +50,7 @@ export default function TheBuzz() {
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
             The web and mobile frontends were built to align with modern UI/UX principles. Users can view, post,
             and comment on ideas with support for file uploads. The profile page includes editable demographic and
-            preference fields to emphasize inclusivity. Admin users can manage users, content, and storage quotas.
+            preference fields to emphasize inclusivity. Admins can manage users, content, and storage quotas.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Skills Developed</h3>

@@ -13,7 +13,7 @@ export default function About() {
         <h1 className="text-6xl sm:text-7xl font-bungee text-center text-dark-plum">About Me</h1>
         <section className="bg-[#FFF8F0] border-4 border-dark-plum rounded-xl p-6 shadow-[inset_0_0_0_4px_#FFF8F0] outline outline-4 outline-dashed outline-offset-[-8px] outline-dark-plum">
           <p className="font-quicksand text-lg leading-relaxed">
-          Hi! I’m Brynna Morris, a dual-degree student at Lehigh University pursuing bachelor's degrees in Computer Science and Population Health. I'm graduating with a 3.92 GPA and a passion for integrating software development with data-driven insight to create meaningful, people-centered solutions. On campus, I'm known for my positivity, hard-working nature, and leadership roles.
+          Hi! I’m Brynna Morris, a dual-degree student at Lehigh University pursuing bachelor's degrees in Computer Science and Population Health. I'm graduating with a 3.92 GPA and a passion for integrating software development with data-driven insight to create meaningful, people-centered solutions. On campus, I'm known for my positivity, work ethic, and leadership roles.
           </p> 
         </section>
         <DropdownSection title="Experience">
@@ -21,16 +21,16 @@ export default function About() {
             <li ><strong>COCC Software Engineering Intern:</strong>
               <ul className="text-lg list-none list-inside space-y-2 pl-4">
                   <li>◦ <span className="ml-4">Participated on a team of 8 developers in an Agile/Scrum environment</span></li>
-                  <li>◦ <span className="ml-4"> Facilitated and led meetings in an interdepartmental team to create promotional materials</span> </li>
-                  <li>◦ <span className="ml-4">Scraped 60,000+ points of data from the file system to create and then analyze an easily readable dashboard from the scraped data to facilitate company-wide package creation and modification</span></li>
-                  <li>◦ <span className="ml-4">Developed internal tools to automate a 100-hour process of scraping and creating the dashboard into a click</span></li>
+                  <li>◦ <span className="ml-4">Facilitated and led interdepartmental meetings to create promotional materials</span> </li>
+                  <li>◦ <span className="ml-4">Scraped 60,000+ points of data from the file system with a mentor to create and then analyze an easily readable dashboard to facilitate company-wide package creation and modification</span></li>
+                  <li>◦ <span className="ml-4">Individually developed internal tools that automated what was a 100-hour process into into a single click</span></li>
                   <li>◦ <span className="ml-4">Produced packages to help expedite the creation and updating of apps and clear storage from the cloud</span></li>
               </ul>
             </li>
             <li><strong>Peer Tutor:</strong> 
               <ul className="text-lg list-none list-inside space-y-2 pl-4">
-                <li>◦ <span className="ml-4">Tutors groups of peers in biostatistics, R, Java, computer science engineering, data structures and algorithms</span></li>
-                <li>◦ <span className="ml-4">Collaborates with professors to grade 100+ students/semester and ensure student success</span></li>
+                <li>◦ <span className="ml-4">Tutor undergraduates in biostatistics, R, Java, computer science engineering, data structures and algorithms</span></li>
+                <li>◦ <span className="ml-4">Collaborate with professors to grade 100+ students per semester and ensure student success</span></li>
               </ul>
             </li>
           </ul>
@@ -127,32 +127,37 @@ export default function About() {
         <DropdownSection title="Campus Involvement">
           <ul className="list-disc list-inside space-y-2">
             <li>
-              <strong>Fellowship Chair, Phi Sigma Pi Honor Fraternity:</strong> Planned and led chapter bonding events to promote connection and inclusivity. Fostered a strong sense of community through award-winning creative programming and thoughtful leadership.
+              <strong>Phi Sigma Pi Honor Fraternity, Fellowship Chair:</strong> Planned and led chapter bonding events to promote connection and inclusivity. Fostered a strong sense of community through award-winning creative programming and thoughtful leadership.
             </li>
             <li>
-              <strong>Community Outreach Director, Lehigh Community Growers Club:</strong> Organized volunteer events and educational programs focused on sustainable agriculture and food equity. Built connections between students and local community gardens through hands-on service.
+              <strong>Lehigh Community Growers Club, Community Outreach Director:</strong> Organized volunteer events and educational programs focused on sustainable agriculture and food equity. Built connections between students and local community gardens through hands-on service.
             </li>
             <li>
-              <strong>Founder & President, Lehigh Paranormal Club:</strong> Founded and led a student organization exploring folklore, culture, history, and scientific curiosity. Grew membership to nearly 300 students, hosted campus events, led field outings and built a space for interdisciplinary connection and conversation.
+              <strong>Lehigh Paranormal Investigative Club, Founder & President:</strong> Founded and led a student organization exploring folklore, culture, history, and scientific curiosity. Grew membership to nearly 300 students, hosted campus events, led field outings and built a space for interdisciplinary connection and conversation.
             </li>
           </ul>
         </DropdownSection>
-        <DropdownSection title="Who Am I?">
+        <DropdownSection title="Who I Am">
           <p>
-            I’m the kind of person who’s always thinking a few steps ahead because I genuinely care:
-            about people, about outcomes, about making sure things feel solid and supported. 
-            I take comfort in clarity and offer it to others whenever I can. 
+            I’m the kind of person who always thinks a few steps ahead because I genuinely care—about people, about outcomes, about making sure efforts feel solid and supported. 
+            I find comfort in clarity and offer it to others whenever I can. 
             I like knowing what the plan is and I love being part of the team that builds it. 
-            That being said, I am not afraid of the unknown and like to take on new, unfamiliar projects, and run with them.
+            That being said, I am not afraid of the unknown and like to take on unfamiliar projects and run with them.
             <br/>
             <br/>
-            I’m energized by working with people: collaborating, problem-solving, and creating an environment where everyone feels comfortable showing up as themselves. I pay attention to what makes each person tick, and I enjoy finding ways to support their strengths. I naturally tune in to group dynamics and do my part to keep things running smoothly. When challenges come up, I try to bring steadiness and clarity, helping the team stay focused and connected.
+            I’m energized when working with people by collaborating, problem-solving, and creating an environment where everyone feels comfortable showing up as themselves. 
+            I pay attention to what makes each person unique, and I enjoy finding ways to support their strengths. 
+            I naturally tune in to group dynamics and do my part to keep things running smoothly. 
+            When challenges come up, I try to bring steadiness and clarity, helping the team stay focused and connected.
             <br/>
             <br/>
-            At my core, I’m dependable and people-oriented, but I’m also quietly competitive with myself. I want to do well, to improve, and to keep things moving forward. I believe that with the right energy and the right team, anything can be meaningful and joyful.
+            At my core, I’m dependable, people-oriented, and quietly competitive with myself. 
+            I want to do well, improve, and keep things moving forward. 
+            I believe that with the right energy and the right team, anything can be meaningful and joyful.
             <br/>
             <br/>
-            I won’t always be the loudest in the room, but I’ll be the most invested. I lead my life with loyalty, empathy, and a deep sense of responsibility to people, to the process, and to possibility.
+            I won’t always be the loudest in the room, but I’ll be the most invested. 
+            I lead my life with loyalty, empathy, and a deep sense of responsibility to people, to the process, and to possibility.
           </p>
         </DropdownSection>
       </div>

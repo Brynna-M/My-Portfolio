@@ -18,7 +18,7 @@ export default function Portfolio() {
           </a>
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Description</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-            This is a custom-built React portfolio website designed to showcase my projects, skills, and background. It includes individual pages for each project with detailed writeups and visual elements, an interactive contact form, and responsive design throughout. The site was developed with a strong emphasis on personal branding and accessibility.
+            This is a custom-built React portfolio website designed to showcase my projects, skills, and background. It includes individual pages for each project with detailed writeups and visual elements, an interactive contact form, and responsive design throughout. The site was developed with a strong emphasis on personal branding.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Frontend</h3>

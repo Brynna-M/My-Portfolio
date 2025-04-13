@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-export default function ProjectCard({ title, path, image, features = [], color }) {
+export default function ProjectCard({ title, path, image, description, features = [], color }) {
   return (
     <Link
       to={path}
-      className={`${color} border-8 border-dark-plum p-4 w-[360px] h-[320px] flex flex-col gap-4 shadow-lg hover:scale-105 transition-transform`}
-    >
+      className={`${color} border-8 border-dark-plum p-4 w-[360px] min-h-[320px] flex flex-col gap-4 shadow-lg hover:scale-105 transition-transform`}
+      >
       <h2 className="text-2xl font-bungee text-center text-dark-plum">{title}</h2>
-
+      <p className="font-quicksand text-center text-dark-plum">{description}</p>
       <div className="flex flex-row items-start gap-2 flex-1 overflow-hidden">
         <img
           src={image}

@@ -19,7 +19,9 @@ export default function DoItDaily() {
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Description</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-            Do-It-Daily is a calendar-based medication tracker that integrates with Google Calendar through the Nylas API. The app helps users with regular or complex prescriptions manage their dosage schedules, receive reminders, and store medication information. It supports Google OAuth login and separates additional medication info for secure storage in MongoDB.
+            Do-It-Daily is a calendar-based medication tracker that integrates with Google Calendar through the Nylas API. 
+            The app helps users with regular or complex prescriptions manage dosage schedules, receive reminders, and store medication information. 
+            It supports Google OAuth login and separates additional medication info for secure storage in MongoDB.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Features</h3>
@@ -33,12 +35,15 @@ export default function DoItDaily() {
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Backend</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-            The backend is built with Node.js, Express, and MongoDB (hosted via MongoDB Atlas). User authentication and medication tracking are modeled with Mongoose schemas. Integration with the Nylas API allows for real-time scheduling and alerts synced with Google Calendar.
+            The backend is built with Node.js, Express, and MongoDB (hosted via MongoDB Atlas).
+            User authentication and medication tracking are modeled with Mongoose schemas. 
+            Integration with the Nylas API allows for real-time scheduling and alerts synced with Google Calendar.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Frontend</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-            Built using React.js and styled with CSS, the frontend features an interactive UI where users can log in, add medications, and view upcoming schedules. It supports account upgrades and visual reminders synced with Google Calendar.
+            Built using React.js and styled with CSS, the frontend features an interactive UI in which users can log in, add medications, and view upcoming schedules. 
+            It supports account upgrades and visual reminders synced with Google Calendar.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Skills Developed</h3>

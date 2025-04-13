@@ -10,11 +10,12 @@ export default function PantryPair() {
             <h2 className="text-3xl font-bungee text-dark-plum mb-4 text-center">Pantry Pair</h2>
 
             <h3 className="text-xl font-bungee text-dark-plum mb-2">GitHub</h3>
-            <Link to="" className="text-lg font-quicksand underline hover:text-deep-rose">Coming Soon!</Link>
-
+            {/* <Link to="" className="text-lg font-quicksand underline hover:text-deep-rose">Coming Soon!</Link> */}
+            <p className="font-quicksand text-lg leading-relaxed text-dark-plum">Coming soon!</p>
             <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Description</h3>
             <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-              Pantry Pair is a smart grocery management and meal planning app designed specifically for college students and diet-restricted individuals...
+            Pantry Pair is a smart grocery management and meal planning app designed specifically for college students and diet-restricted individuals. 
+            The app helps users track their grocery inventory by logging item names, quantities, and expiration dates—making it easy to know what’s in stock and when items need to be replaced.
             </p>
 
             <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Core Features</h3>
@@ -28,17 +29,17 @@ export default function PantryPair() {
 
             <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Backend</h3>
             <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-              Pantry Pair uses a SQL backend to store and manage user data...
+            Pantry Pair uses SQL to store and manage user data, such as inventory items, recipes, and calendar meal plans. The database structure ensures reliable access to real-time inventory status and supports complex queries for recipe matching and planning.
             </p>
 
             <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Frontend</h3>
             <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-              Built using React, the frontend includes dynamic components for adding groceries, browsing recipes, and scheduling meals...
+            Built using React, the frontend includes dynamic components for adding groceries, browsing recipes, and scheduling meals in a clean, mobile-friendly layout. The user experience is tailored to the fast-paced needs of student life, with intuitive features that promote healthy and mindful eating habits.
             </p>
 
             <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Skills Developed</h3>
             <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-              Through this project, I strengthened my skills in full-stack development, SQL database design...
+            Through this project, I strengthened my skills in full-stack development, SQL database design, dynamic form handling, and calendar-based UI design. It also deepened my ability to create practical, user-centered applications.
             </p>
           </div>
         </div>

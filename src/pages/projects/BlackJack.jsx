@@ -27,13 +27,19 @@ export default function BlackJack() {
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Description</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-          This browser-based Blackjack game was built using HTML, CSS, JavaScript on the frontend  along with React to manage UI components and game flow. It simulates a full
-          Blackjack 21 experience where a player can draw cards ("Hit Me") or end their turn ("Stay") to compete against
-          a dealer. The goal was to create a fully playable browser-based version of Blackjack 21 while also incorporating persistent data storage using a MongoDB backend.          </p>
+            This browser-based Blackjack game was built using HTML, CSS, JavaScript on the frontend  along with React to manage UI components and game flow. 
+            It simulates a Blackjack 21 experience where a player can draw cards ("Hit Me") or end their turn ("Stay") to compete against
+            a dealer. The goal was to create a playable browser-based version of Blackjack 21 while also incorporating persistent data storage using a MongoDB backend.          
+          </p>
 
-          <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Game Play</h3>
+          <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Gameplay</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-          The game uses the <a className="text-blue-600 underline" href="https://deckofcardsapi.com/" target="_blank" rel="noreferrer">Deck of Cards API</a> to handle all card drawing and deck management, enabling a realistic gameplay experience with live card visuals and values. On launch, a modal appears prompting the user to start the game. Once started, the dealer and player each receive two cards, and gameplay follows standard Blackjack rules: the player can hit or stay, and the dealer must draw until reaching at least 17. Victory conditions are determined based on busts or point totals.
+            The game uses the <a className="text-blue-600 underline" href="https://deckofcardsapi.com/" target="_blank" rel="noreferrer">Deck of Cards API </a> 
+             to handle all card drawing and deck management, enabling a realistic gameplay experience with live card visuals and values. 
+            On launch, a modal appears prompting the user to start the game. 
+            Once started, the dealer and player each receive two cards, and gameplay follows standard Blackjack rules: 
+            The player can hit or stay, and the dealer must draw until reaching at least 17. 
+            Victories are determined based on busts or point totals.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Backend</h3>
@@ -47,7 +53,9 @@ export default function BlackJack() {
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Frontend</h3>
           <p className="font-quicksand text-lg leading-relaxed text-dark-plum">
-            The interface features an animated card table with interactive "Hit Me" and "Stay" buttons, a visual scoreboard, and end-of-game modals with win/tie/lose results. All UI elements are dynamically updated with JavaScript and React, without reloading the page. The score tally updates after each game based on live data from the MongoDB backend.
+            The interface features an animated card table with interactive "Hit Me" and "Stay" buttons, a visual scoreboard, and end-of-game modals with win/tie/lose results. 
+            All UI elements are dynamically updated with JavaScript and React, without reloading the page. 
+            The score tally updates after each game based on live data from the MongoDB backend.
           </p>
 
           <h3 className="text-xl font-bungee text-dark-plum mt-4 mb-2">Skills Developed</h3>

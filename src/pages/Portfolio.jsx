@@ -6,6 +6,7 @@ export default function Portfolio() {
     { title: 'Do It Daily', 
       path: '/portfolio/do-it-daily', 
       image: '/Do-It-Daily.png',
+      description: "A medication tracker web-app",
       features: [
         "React",
         "MongoDB",
@@ -17,9 +18,10 @@ export default function Portfolio() {
       ],
       color: 'bg-nanas-nails' 
     },
-    { title: 'Black Jack', 
+    { title: 'Blackjack', 
       path: '/portfolio/black-jack', 
       image: '/BlackJack/BlackJackPlay.png',
+      description: "A classic casino-style Blackjack web-app",
       features:[
               "React Game Logic",
               "API Integration",
@@ -33,6 +35,7 @@ export default function Portfolio() {
     { title: 'Portfolio', 
       path: '/portfolio/portfolio', 
       image: '/PortfolioHome.png',
+      description: "(this website)",
       features:[
               "React",
               "Tailwind CSS",
@@ -47,6 +50,7 @@ export default function Portfolio() {
     { title: 'The Buzz', 
       path: '/portfolio/buzz', 
       image: '/TheBuzz/Web1.png',
+      description: "A mobile and web-app for communication and ideation",
       features:[
               "React",
               "PostgreSQL",
@@ -60,6 +64,7 @@ export default function Portfolio() {
     { title: 'Cafe Justo', 
       path: '/portfolio/cafe', 
       image: '/CafeJusto/Final Poster - Chainbytes.png',
+      description: "A mobile app designed to log payments made to workers on the blockchain",
       features:[
               "React",
               "ExpoGo",
@@ -75,6 +80,7 @@ export default function Portfolio() {
     { title: 'Pantry Pair', 
       path: '/portfolio/pantry', 
       image: '/PantryPair.png',
+      description: "A customizable grocery tracker and meal-planning web-app",
       features:[
               "React",
               "SQL",
@@ -99,6 +105,7 @@ export default function Portfolio() {
               title={project.title}
               path={project.path}
               image={project.image}
+              description={project.description}
               features={project.features}
               color={project.color}
             />
