@@ -10,7 +10,7 @@ export default function About() {
     <>
       <Navbar/>
       <div className="max-w-4xl mx-auto px-6 py-12 text-dark-plum space-y-8">
-        <h1 className="text-7xl font-bungee text-center text-dark-plum">About Me</h1>
+        <h1 className="text-6xl sm:text-7xl font-bungee text-center text-dark-plum">About Me</h1>
         <section className="bg-[#FFF8F0] border-4 border-dark-plum rounded-xl p-6 shadow-[inset_0_0_0_4px_#FFF8F0] outline outline-4 outline-dashed outline-offset-[-8px] outline-dark-plum">
           <p className="font-quicksand text-lg leading-relaxed">
           Hi! I’m Brynna Morris, a dual-degree student at Lehigh University pursuing bachelor's degrees in Computer Science and Population Health. I'm graduating with a 3.92 GPA and a passion for integrating software development with data-driven insight to create meaningful, people-centered solutions. On campus, I'm known for my positivity, hard-working nature, and leadership roles.

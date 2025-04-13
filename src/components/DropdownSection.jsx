@@ -11,16 +11,23 @@ export default function DropdownSection({ title, children }) {
         className="w-full text-left flex justify-between items-center text-2xl font-bungee text-dark-plum"
         aria-expanded={isOpen}
       >
-        {title}
-        {isOpen ? <ChevronUp size={24} /> : <ChevronDown size={24} />}
+        <span className="break-words">{title}</span>
+        <span
+          className={`transition-transform duration-300 ${
+            isOpen ? "rotate-180" : ""
+          }`}
+        >
+          <ChevronDown size={24} />
+        </span>
       </button>
-
       <div
-        className={`mt-4 transition-all duration-300 ease-in-out ${
-          isOpen ? "max-h-screen opacity-100" : "max-h-0 overflow-hidden opacity-0"
-        }`}
+        className={`transition-all duration-500 ease-in-out ${
+          isOpen ? "max-h-fit opacity-100" : "max-h-0 opacity-0"
+        } overflow-hidden`}
       >
-        <div className="text-lg font-quicksand leading-relaxed text-dark-plum">{children}</div>
+        <div className="pt-2 text-lg font-quicksand leading-relaxed text-dark-plum">
+          {children}
+        </div>
       </div>
     </section>
   );

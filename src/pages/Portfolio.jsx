@@ -90,10 +90,10 @@ export default function Portfolio() {
   return (
     <>
       <Navbar/>
-      <h1 className="text-7xl font-bungee text-dark-plum text-center mb-6 pt-10">My Portfolio</h1>
-      <div className=" p-8 w-full px-4">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
-          {projects.map(project => (
+      <h1 className="text-6xl sm:text-7xl font-bungee text-dark-plum text-center mb-6 pt-10">My Portfolio</h1>
+      <div className=" p-8 w-full">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-16 gap-y-20 justify-items-center">
+        {projects.map(project => (
             <ProjectCard
               key={project.title}
               title={project.title}
